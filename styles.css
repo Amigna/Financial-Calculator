@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    background:linear-gradient(to right, #094d6e, #06a84a);
+    /* background-color: rgba(77, 77, 77, 0.986); */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: top;
+    color: whitesmoke;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px 1px 10px;
+    justify-content: center;
+    background-color: rgba(17, 17, 17, 0.945);
+}
+
+#input {
+    height: 5rem;
+    border: 1px solid black;
+    background-color: rgba(192, 230, 88, 0.863);
+    border-radius: 10px;
+    margin: 20px 12px;
+    font-size: 2rem;
+}
+
+button {
+    width: 55px;
+    height: 50px;
+    background-color:rgba(5, 5, 5, 0.808);
+    text-align: center;
+    border-radius: 6px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: whitesmoke;
+    margin: 1px;
+}
+
+button:hover {
+    background-color: rgb(83, 83, 83);
+    cursor: pointer;
+}
+
+#time-value, #clear, #left-side, #funct {
+    width: 52px;
+    height: 32px;
+    font-size: 11px;
+    border-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#time-values {
+    width: 52px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(235, 232, 232, 0.952);
+    color: rgba(15, 15, 15, 0.959);
+    font-weight: 600;
+}
+
+#time-values:hover {
+    background-color:rgb(68, 68, 68);
+    color: white;
+}
+
+.second {
+    width: 52px;
+    height: 32px;
+    border-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 14px;
+    background-color: rgba(236, 236, 120, 0.938);
+}
+
+#btn-wrap {
+    justify-content: space-around;
+}
+
+#btn-wrap > button {
+    text-align: center;
+}
+
+.number {
+    background-color:rgba(63, 63, 63, 0.808);
+    font-size: 20px;
+}
+
+.oper {
+    font-size: 20px;
+}
+
+.fas {
+    font-size: 16px;
+}
+
